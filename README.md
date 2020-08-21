@@ -29,8 +29,10 @@ https://developer.chrome.com/extensions/getstarted#manifest
 
 ## How to use the extension
 
-Because the extension is very simple by nature, I have not implemented any filters whatsoever. To generate a random email, all you have to do is select the text box you want the email to be generated in, right-click, and select the option "Generate Email". This should automatically place the email inside the text box. 
+To generate a random email, all you have to do is select the text box you want the email to be generated in, right-click, and select the option "Generate Email". This should automatically place the email inside the text box. 
 
 ## Known issues
+
+Because the extension is very simple by nature, I have not implemented any filters whatsoever. It means that the "Generate Email" option is available anywhere, anytime regardless of the place you right-click on. This doesn't cause any real issues, but it's there.
 
 Please note that some websites need for the textbox to be updated in order to read the email in the textbox that you have generated. Deleting the last character of the email and adding it back should automatically resolve this issue.
