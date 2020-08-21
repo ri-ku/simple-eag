@@ -3,7 +3,19 @@ Chrome Extension that lets you generate a random email alias with any email doma
 
 ## Demonstation
 
-(Will Be Updated)
+![](https://i.imgur.com/SH32qmt.gif)
+
+### Email Format
+
+The format of the generated emails is the following:
+
+<pre>websitedomain.bunchofcharacters@domain.domain</pre>
+
+*websitedomain*: The domain of the website you're generating the email from. For instance, generating an email on https://github.com will give you "github", and generating an email from https://developers.google.com/ will give you "google".
+
+*bunchofcharacters*: This part of the email is randomised. Because the code is using MD5 to do so, the possible characters range from 0-9 and a-z (lowercase).
+
+*domain.domain*: It is your email domain. By default, it is set to "changeyourdomain.com". Of course, the only real use you'll be getting from this extension is if you own a [Catch-all domain](https://protonmail.com/support/knowledge-base/catch-all/), in which case you need to change it to your own domain.
 
 ## Installation
 
